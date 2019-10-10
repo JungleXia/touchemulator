@@ -323,7 +323,7 @@
      * @returns object
      */
     TouchEmulator.template = function(touch) {
-        var size = 30;
+        var size = 0;
         var transform = 'translate('+ (touch.clientX-(size/2)) +'px, '+ (touch.clientY-(size/2)) +'px)';
         return {
             position: 'fixed',
